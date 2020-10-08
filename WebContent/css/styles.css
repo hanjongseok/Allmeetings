@@ -1,0 +1,42 @@
+header {
+	height : 50px;
+}
+article {
+	height : 900px;
+	background:linear-gradient( to right, lightyellow, lightblue )
+
+}
+footer {
+	
+	height : 20px;
+	background:linear-gradient( to right, lightyellow, lightblue )
+	
+}
+button {  
+      text-decoration: none;
+      font-size:20px;
+      color:black;
+   /*   padding:10px 20px 10px 20px;*/
+      display:inline-block;
+      border-radius: 10px;
+      transition:all 0.1s;
+      font-family: 'Lobster', cursive;
+      background-color:yellow;
+    }
+button:active{
+      transform: translateY(3px);
+    }
+    
+.da {
+	background: #55ffaa;
+    background: -webkit-linear-gradient(left, #55ff55, #55ffff);
+    background:    -moz-linear-gradient(right, #55ff55, #55ffff);
+    background:      -o-linear-gradient(right, #55ff55, #55ffff);
+    background:         linear-gradient(to right, #55ff55, #55ffff);
+    -webkit-background-clip: text;
+            background-clip: text;
+    color: transparent;
+    font-size: 48px;
+    font-weight: bold;
+	
+}
